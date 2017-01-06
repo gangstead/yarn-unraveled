@@ -20,10 +20,10 @@ To view the slides locally clone this repository, then start a [static http serv
 - Follow instructions: https://yarnpkg.com/en/docs/install
 - Funny way: `npm install yarn`
 
-## [Exercise 1 - Create a project](http://github.com/gangstead/yarn-unraveled/tree/master/1_create_project)
+## [Exercise 1 - Create a project](https://github.com/gangstead/yarn-unraveled/tree/master/exercises/1_create_project)
 
-## [Exercise 2 - Install dependencies](http://github.com/gangstead/yarn-unraveled/tree/master/2_install_dependencies)
+## [Exercise 2 - Install dependencies](https://github.com/gangstead/yarn-unraveled/tree/master/exercises/2_install_dependencies)
 
-## [Exercise 3 - Time Trials](http://github.com/gangstead/yarn-unraveled/tree/master/3_time_trials)
+## [Exercise 3 - Time Trials](https://github.com/gangstead/yarn-unraveled/tree/master/exercises/3_time_trials)
 
-## [Exercise 4 - Shrinkwrap vs Lock](http://github.com/gangstead/yarn-unraveled/tree/master/4_shrinklock)
+## [Exercise 4 - Shrinkwrap vs Lock](https://github.com/gangstead/yarn-unraveled/tree/master/exercises/4_shrinklock)
