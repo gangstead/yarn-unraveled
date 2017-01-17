@@ -1,9 +1,8 @@
 # Shrinkwrap vs Lock
 
-NPM has Shrinkwrap files while Yarn has lock files.
+NPM has always had Shrinkwrap files to lock in dependencies while Yarn has lock files.
 
-** TODO: everything**
-
-- Show how you have to generate a shrinkwrap file explicitly
-- Show how a lock file gets generated automatically
-- Show how a lock file prevents you from getting patch fixes automatically
+- First run `npm install` to get all the dependencies
+- Then run `npm shrinkwrap`
+- Then run `yarn install`
+- Compare `npm-shrinkwrap.json` to `yarn.lock`

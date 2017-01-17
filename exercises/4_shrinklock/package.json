@@ -1,7 +1,19 @@
 {
-  "name": "3_time_trials",
+  "name": "4_shrinklock",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Gangstead",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "boom": "^4.2.0",
+    "commander": "^2.9.0",
+    "hapi": "^16.1.0",
+    "hoek": "^4.1.0",
+    "joi": "^10.2.0",
+    "lodash": "^4.17.3",
+    "uuid": "^3.0.1",
+    "yarp": "^1.0.0",
+    "yarp-boom": "^1.1.1"
+  }
 }
