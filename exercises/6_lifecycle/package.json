@@ -1,0 +1,12 @@
+{
+  "name": "6_lifecycle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"This is the test script\"",
+    "posttest": "echo \"This is the POST test script\""
+  },
+  "author": "gangstead",
+  "license": "MIT"
+}
