@@ -1,7 +1,35 @@
 {
   "name": "3_time_trials",
+  "description": "Similar set of dependencies for many services at Vinli",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Gangstead",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "boom": "^4.2.0",
+    "commander": "^2.9.0",
+    "hapi": "^16.1.0",
+    "hoek": "^4.1.0",
+    "joi": "^10.2.0",
+    "lodash": "^4.17.4",
+    "uuid": "^3.0.1",
+    "yarp": "^1.0.0",
+    "yarp-boom": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.13.1",
+    "eslint-config-vinli": "^5.3.0",
+    "eslint-plugin-mocha": "^4.8.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gangstead/yarn-unraveled.git"
+  }
 }
