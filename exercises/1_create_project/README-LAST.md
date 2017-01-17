@@ -13,10 +13,10 @@ Let's compare creating a yarn project vs creating an npm project.
 {
   "name": "npm_proj",
   "version": "1.0.0",
-  "description": "desc",
+  "description": "Description of your project pulled from the README",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"hello\""
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "gangstead",
   "license": "MIT"
@@ -31,5 +31,8 @@ Let's compare creating a yarn project vs creating an npm project.
   "license": "MIT"
 }
 ```
-
-They are basically the same.  NPM asks about testing and starts a `scripts` section of your `package.json` other than that they ask the same questions and create the same file.  NPM and Yarn are two different implementations but they are doing the same things and at run time Node doesn't care which one set up the project for you.
+Some notes:
+- They are basically the same.  
+- NPM asks about testing and starts a `scripts` section of your `package.json`.  If you don't specify anything it will make a place holder with a failing return value - a gentle reminder.  If you run `npm init` on a project that
+- Other than that they ask the same questions and create the same file.  
+- NPM and Yarn are two different implementations but they are doing the same things and at run time Node doesn't care which one set up the project for you.  The NPM one is
