@@ -27,3 +27,7 @@ To view the slides locally clone this repository, then start a [static http serv
 ## [Exercise 3 - Time Trials](https://github.com/gangstead/yarn-unraveled/tree/master/exercises/3_time_trials)
 
 ## [Exercise 4 - Shrinkwrap vs Lock](https://github.com/gangstead/yarn-unraveled/tree/master/exercises/4_shrinklock)
+
+## [Exercise 5 - Mixing yarn and npm on the same project](https://github.com/gangstead/yarn-unraveled/tree/master/exercises/5_combined)
+
+## [Exercise 6 - Lifecycle scripts](https://github.com/gangstead/yarn-unraveled/tree/master/exercises/6_lifecycle)
