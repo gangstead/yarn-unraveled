@@ -2,32 +2,34 @@
 
 **TODO: Find some specific versions of dependencies that highlight this problem**
 
-Yarn builds are deterministic.  What does that mean?
-### Example with NPM
-- Go to `npm_proj` and execute the following commands:
- - `npm install blah1`
- - `npm install blah2`
- - `npm install blah3`
-- Now see what versions are installed with `npm list`
-- Save the output of `npm list`
-- Remove the installed dependencies by deleting the `node_modules` directory
-- Now execute these commands:
- - `npm install blah3`
- - `npm install blah2`
- - `npm install blah1`
-- Execute `npm list` again
-- Compare the two outputs.  Why are they different?
+Yarn claims its builds are deterministic.  What does that mean?
 
-### Example with Yarn
-- Go to `yarn_proj` and execute the following commands:
- - `yarn add blah1`
- - `yarn add blah2`
- - `yarn add blah3`
-- Now see what yarn has installed with `yarn ls`
-- Remove installed dependencies by deleting the `node_modules` directory
-- Now execute these commands:
- - `yarn add blah3`
- - `yarn add blah2`
- - `yarn add blah1`
-- Execute `yarn ls` again
-- Compare the two outputs.  They should be the same
+Start with a package json with these dependencies
+(Source: https://docs.npmjs.com/how-npm-works/npm3-nondet)
+```json
+"dependencies": {
+  "mod-a": "^1.0.0",
+  "mod-c": "^1.0.0",
+  "mod-d": "^1.0.0",
+  "mod-e": "^1.0.0"
+}
+```
+
+See what happens in NPM when you add your dependencies one-by-one while you are developing and then if you install them all at once:
+- `cd npm_proj`
+- `npm install`
+- `npm install mod-a@2 --save`
+- `npm ls`
+ - Observe the tree it prints out
+- `rm -r node_modules && npm install`
+ - Observe the tree it prints out
+
+Now do the same steps with yarn:
+- `cd yarn_proj`
+- `yarn install`
+- `yarn add mod-a@2`
+- `yarn list`
+ - Observe the tree it prints out
+- `rm -r node_modules yarn.lock && yarn install`
+- `yarn list`
+ - Observe the tree it prints out
