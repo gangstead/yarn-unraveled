@@ -43,10 +43,5 @@ class: middle
 
 ---
 class: middle
-# Exercise 1
+# Exercises
 ---
-class: middle
-# Exercise 2
----
-class: middle
-# Exercise 3

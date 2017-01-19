@@ -1,7 +1,5 @@
 # Install Dependencies
 
-**TODO: Find some specific versions of dependencies that highlight this problem**
-
 Yarn claims its builds are deterministic.  What does that mean?
 
 Start with a package json with these dependencies
